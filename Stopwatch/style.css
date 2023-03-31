@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4b2b;
+  background-image: url("https://media.giphy.com/media/9Sv7nJ5tBFDV7BKa5f/giphy.gif");
+  background-size: cover;
+}
+
+.stopwatch-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.time-display {
+  font-size: 5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.btn {
+  background-color: #ff4b2b;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #ff4b2b;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
